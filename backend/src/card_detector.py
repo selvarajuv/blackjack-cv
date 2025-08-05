@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from typing import List, Optional
 from dataclasses import dataclass
-from .models import Card, DetectedCard, Rank, Suit
+from models import Card, DetectedCard, Rank, Suit
 
 
 @dataclass

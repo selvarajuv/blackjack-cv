@@ -1,5 +1,5 @@
 from typing import Dict, Tuple
-from .models import Decision, Rank
+from models import Decision, Rank
 
 # Decision shortcuts for readability
 H = Decision.HIT

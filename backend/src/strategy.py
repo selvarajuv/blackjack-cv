@@ -1,6 +1,6 @@
 from typing import Optional
-from .models import Hand, Card, Decision, Rank
-from .strategy_tables import (
+from models import Hand, Card, Decision, Rank
+from strategy_tables import (
     get_hard_totals_table,
     get_soft_totals_table,
     get_pair_splits_table,

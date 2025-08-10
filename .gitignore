@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Models (too large for git)
+models/*.pt
+models/*.onnx
+!models/.gitkeep
+
+# Test outputs
+test_images/*.jpg
+test_images/*.png
+!test_images/.gitkeep
+
+# Test videos
+data/test_videos/*.mp4
+data/test_videos/*.avi
+!data/test_videos/.gitkeep
+
+# Calibration data
+data/calibration/*.npz
+data/calibration/*.json
+!data/calibration/.gitkeep
+
+# IDE
+.vscode/
